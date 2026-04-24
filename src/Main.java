@@ -18,6 +18,9 @@ public class Main {
         System.out.println("Establece la descripción de la pieza:");
         String desc = scanner.nextLine();
         factura1.establecerDescripcionPieza(desc);
+        System.out.println("Establece la cantidad de piezas:");
+        int can = scanner.nextInt();
+        factura1.establecerCantidad(can);
 
         System.out.println("--- Factura 1 ---");
         System.out.printf("Número de pieza: %s%n", factura1.obtenerNumeroPieza());
