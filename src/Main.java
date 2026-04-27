@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -21,6 +20,9 @@ public class Main {
         System.out.println("Establece la cantidad de piezas:");
         int can = scanner.nextInt();
         factura1.establecerCantidad(can);
+        System.out.println("Establece el precio del artículo (por unidad)");
+        double prec = scanner.nextDouble();
+        factura1.establecerPrecioPorArticulo(prec);
 
         System.out.println("--- Factura 1 ---");
         System.out.printf("Número de pieza: %s%n", factura1.obtenerNumeroPieza());
