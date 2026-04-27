@@ -10,6 +10,7 @@ public class Main {
 
         Factura factura3 = new Factura("0003", "Sierra", 10, 24.60);
 
+        System.out.println("PRUEBA 1: CAMBIO DE DATOS POR CONSOLA");
         System.out.println("--- Factura 1 ---");
         System.out.println("Establece el numero de pieza:");
         String entrada = scanner.nextLine();
